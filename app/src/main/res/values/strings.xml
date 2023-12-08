@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">현재시간보기</string>
+    <string name="stopGame">스탑워치게임</string>
+    <string name="result">결과확인</string>
+</resources>
