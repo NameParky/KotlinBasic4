@@ -94,6 +94,8 @@ class MainActivity : AppCompatActivity() {
 
         val stopTime = findViewById<Button>(R.id.stopTime).setOnClickListener {
             if (stopFlags){
+                var stopButton = findViewById<Button>(R.id.stopTime)
+                stopButton.setText("시간정지!!!!")
                 val stopTimeText = findViewById<TextView>(R.id.stopTimeText)
                 milliTimeLoop(stopTimeText)
                 stopFlags = false
